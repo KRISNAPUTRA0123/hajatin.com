@@ -1,0 +1,71 @@
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.phpactor.json
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+
+# Auth / secrets
+/auth.json
+/storage/*.key
+
+# Dependencies
+/vendor
+/node_modules
+
+# Build files
+/public/build
+/public/hot
+
+# Public storage symlink
+/public/storage
+
+# Laravel cache / runtime
+/storage/pail
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+
+# Keep folder structure
+!/storage/framework/cache/data/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/testing/.gitignore
+!/storage/framework/views/.gitignore
+
+# Testing
+.phpunit.result.cache
+
+# Laravel IDE helper
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# Database backup - jangan upload backup database sensitif
+*.sql
+*.sqlite
+*.sqlite3
+*.bak
+*.zip
+*.rar
+
+/storage/app/firebase/firebase_credentials.json
+/storage/app/firebase/*.json
+firebase_credentials.json
+*.service-account.json
